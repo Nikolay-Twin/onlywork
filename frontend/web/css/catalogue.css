@@ -1,0 +1,100 @@
+
+.catalogue {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+
+.catalogue-sidebar {
+    padding: 10px;
+    background: #171a5a;
+    width: 30%;
+    color: white;
+    min-height: 500px;
+}
+.catalogue-sidebar a {
+    color: #0ca5e3;
+}
+
+.catalogue-sidebar a:hover {
+    color: white;
+}
+
+.catalogue-content {
+    position: relative;
+    border: 1px solid #171a5a;
+    padding: 10px;
+    width: 70%;
+}
+
+.span-h2 {
+    display: block;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.tree-button {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.category-popup {
+    position: absolute;
+    left: 100px;
+    background: #0b5ed7;
+    padding: 5px;
+    display: none;
+    z-index: 2;
+}
+
+.product-popup {
+    display: none;
+    position: absolute;
+    left: 25%;
+    top: 40px;
+    border: 1px solid;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background: #000099;
+    color: white;
+}
+
+#product-name-input {
+    width: 80%;
+}
+
+#product-descript-input {
+    width: 80%;
+    height: 260px;
+}
+
+#product-edit-button {
+    display: none;
+    cursor: pointer;
+    border: 1px solid;
+    background: #0dcaf0;
+    width: 140px;
+    text-align: center;
+}
+
+.product-button {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.close-popup {
+    float: right;
+    cursor: pointer;
+    color: red
+}
+
+.product-add {
+    display: none;
+    cursor: pointer;
+    color: #66d880;
+}
