@@ -35,22 +35,5 @@
 В контентной части вывести в произвольной форме список товаров из выбранной категории
 * Категории и товары созданные с помощью API из пункта №2
 
-## Installation
-
-1. Клонировать
-   ```sh
-   git clone https://github.com/Nikolay-Twin/onlywork.git
-   ```
-2. Инсталлировать в Docker'e (выполнить в терминале в корне команду)
-   ```sh
-   ./tools/app.sh init
-   ```
-
-3. Прописать в hosts:
-   ```sh
-   127.0.0.1       testwork.local
-   ```
-4. Посмотреть)  [testwork.local](http://testwork.local)
-
 
 
